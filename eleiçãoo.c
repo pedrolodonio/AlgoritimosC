@@ -11,19 +11,22 @@ int main(int argc, char *argv[]) {
 	if(idade<1)
 		printf("nao nasceu");
 	else
-		if(idade==16|| idade==17)
-			printf("voto opicional");
+		if(idade>=1 && idade<=15)
+			printf("não vota"):
 		else
-			if(idade==41)
-				printf("ganhou o premio 1");
+			if(idade==16|| idade==17)
+				printf("voto opicional");
 			else
-				if(idade==82)
-					printf("ganhou o premio 2");
+				if(idade==41)
+					printf("ganhou o premio 1");
 				else
-					if(idade>=18 && idade=!41 && idade<=64)
-						printf("voto obrigatorio");
+					if(idade==82)
+						printf("ganhou o premio 2");
 					else
-						if(idade>=65 && idade=!82)
-							printf("voto opicional");
+						if(idade>=18 && idade=!41 && idade<=64)
+							printf("voto obrigatorio");
+						else
+							if(idade>=65 && idade=!82)
+								printf("voto opicional");
 	return 0;
 }
